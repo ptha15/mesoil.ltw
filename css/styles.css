@@ -1,0 +1,124 @@
+body {
+  padding-top: 54px;
+
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+.button{
+  background-color: black;
+  color: white;
+}
+.button:hover{
+  color: red;
+}
+.footer_01 {
+   margin-top: 50px;
+}
+.navbar{
+  background-color: black;
+}
+#navbarResponsive ul li a{
+  color: #fff;
+  font-size: 90%;
+  font-weight: bold;
+}
+.nav-link {
+  color: #fff;
+  text-align: center;
+}
+
+#navbarResponsive ul li a:hover {
+  color: red;
+  background-color: none;
+  transition:0.5s;
+}
+
+footer{
+  background-color: #DE8971;
+}
+.card{
+  border-style: none;
+}
+.card-title a{
+  color: #000;
+}
+.card-title a:hover{
+  color: red;
+  text-decoration: none;
+}
+.my-4{
+  text-align: center;
+  margin-top: 100px;
+}
+.addnew a{
+  color: black
+}
+.addnew a:hover{
+  color: red;
+}
+
+.product{
+  width: 285px;
+ 
+}
+.product-body img{
+  width: 250px;
+  
+  box-shadow: 5px 5px 5px #666;
+  -moz-box-shadow: 5px 5px 5px #666;
+  -webkit-box-shadow: 5px 5px 5px #666;
+  margin-right: 5px;
+  padding: 20px;
+}
+.product-header{
+  margin-top: 10px;
+}
+.lookbook-area{
+   border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.list-header{
+  text-align: center; 
+  display: block;
+  margin-top: 60px; 
+  margin-bottom: 60px;
+  font-weight: bold;
+}
+
+
+.h-100{
+  box-shadow: 5px 5px 5px #666;
+  -moz-box-shadow: 5px 5px 5px #666;
+  -webkit-box-shadow: 5px 5px 5px #666;
+}
+.help-block {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #737373;
+}
+.control-label{
+  font-weight: bold;
+}
+
